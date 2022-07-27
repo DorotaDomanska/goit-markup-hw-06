@@ -675,10 +675,10 @@ p {
   line-height: 1.88;
   display: flex;
   align-items: center;
-  text-align: center;
+  justify-content: space-between;
   letter-spacing: 0.06em;
   color: #ffffff;
-  padding: 10px 28px 10 px 42px;
+  padding: 10px 28px 10px 42px;
 }
 
 /* Portfolio */
