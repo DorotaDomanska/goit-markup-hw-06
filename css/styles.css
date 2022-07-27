@@ -375,7 +375,6 @@ p {
   position: absolute;
   top: 4px;
   left: 0px;
-  opacity: 0;
 }
 
 .checkbox:checked {
