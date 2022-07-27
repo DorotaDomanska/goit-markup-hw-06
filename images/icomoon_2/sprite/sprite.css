@@ -1,0 +1,31 @@
+.icons {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.icon-check {
+  width: 32px;
+  height: 32px;
+  background-position: 0 0;
+}
+.icon-email-black {
+  width: 32px;
+  height: 32px;
+  background-position: -48px 0;
+}
+.icon-person-black {
+  width: 32px;
+  height: 32px;
+  background-position: -96px 0;
+}
+.icon-phone-black {
+  width: 32px;
+  height: 32px;
+  background-position: -144px 0;
+}
+.icon-send {
+  width: 32px;
+  height: 32px;
+  background-position: -192px 0;
+}
+
