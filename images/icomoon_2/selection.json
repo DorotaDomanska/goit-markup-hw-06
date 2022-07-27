@@ -4,43 +4,62 @@
     {
       "icon": {
         "paths": [
-          "M154.154 492.438l-5.418-5.169-81.399 77.106 286.789 273.588 602.518-574.782-80.864-77.141-521.652 497.168-199.975-190.769z"
+          "M136.533 0h819.2c75.405 0 136.533 61.128 136.533 136.533v750.933c0 75.405-61.128 136.533-136.533 136.533h-819.2c-75.405 0-136.533-61.128-136.533-136.533v-750.933c0-75.405 61.128-136.533 136.533-136.533z",
+          "M270.133 529.18l-4.695-4.48-70.546 66.825 248.551 237.109 522.183-498.145-70.083-66.856-452.098 430.877-173.311-165.331z"
         ],
         "attrs": [
+          {
+            "fill": "rgb(33, 150, 243)"
+          },
           {
             "fill": "rgb(255, 255, 255)",
             "stroke": "rgb(255, 255, 255)",
             "strokeLinejoin": "miter",
             "strokeLinecap": "butt",
             "strokeMiterlimit": "4",
-            "strokeWidth": 15.753846153846155
+            "strokeWidth": 13.653333333333334
           }
         ],
-        "isMulticolor": false,
-        "isMulticolor2": false,
+        "width": 1092,
+        "isMulticolor": true,
+        "isMulticolor2": true,
         "grid": 0,
         "tags": [
           "check"
-        ]
+        ],
+        "colorPermutations": {
+          "2552552551331502431": [
+            {
+              "f": 0
+            },
+            {
+              "f": 1,
+              "s": 1
+            }
+          ]
+        }
       },
       "attrs": [
+        {
+          "fill": "rgb(33, 150, 243)"
+        },
         {
           "fill": "rgb(255, 255, 255)",
           "stroke": "rgb(255, 255, 255)",
           "strokeLinejoin": "miter",
           "strokeLinecap": "butt",
           "strokeMiterlimit": "4",
-          "strokeWidth": 15.753846153846155
+          "strokeWidth": 13.653333333333334
         }
       ],
       "properties": {
-        "order": 70,
-        "id": 4,
+        "order": 75,
+        "id": 0,
         "name": "check",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 6,
+      "setId": 7,
       "iconIdx": 0
     },
     {
@@ -67,7 +86,7 @@
         "name": "email-black",
         "prevSize": 32
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 6,
       "iconIdx": 1
     },
@@ -95,7 +114,7 @@
         "name": "person-black",
         "prevSize": 32
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 6,
       "iconIdx": 2
     },
@@ -123,7 +142,7 @@
         "name": "phone-black",
         "prevSize": 32
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 6,
       "iconIdx": 3
     },
@@ -155,7 +174,7 @@
         "name": "send",
         "prevSize": 32
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 6,
       "iconIdx": 4
     }
