@@ -384,9 +384,11 @@ p {
   width: 16px;
   height: 15px;
   opacity: 0;
+  display: inline-flex;
   position: absolute;
   transform: scale(0);
-  background-image: url("../images/icons2.svg#icon-check");
+  background-image: url(../images/icons2.svg#icon-check);
+  background-size: contain;
   background-position: center;
 }
 
