@@ -228,8 +228,6 @@ p {
 }
 
 .modal-box {
-  width: 528px;
-  height: 581px;
   background-color: #fff;
   cursor: initial;
   margin: auto;
@@ -261,6 +259,7 @@ p {
 
 .form-modal {
   text-align: center;
+  padding: 2px 32px 32px;
 }
 
 .form-modal p {
@@ -298,10 +297,15 @@ p {
 
 .label-modal {
   position: relative;
+  padding-top: 10px;
 }
 
 .label-modal:focus-within {
   fill: var(--brand-color);
+}
+
+.text-label-modal {
+  padding-bottom: 4px;
 }
 
 .input-modal {
@@ -350,51 +354,64 @@ p {
 }
 
 .checkbox-modal {
-  width: 419px;
-  height: 24px;
   margin-top: 20px;
-  margin-left: 55px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--brand-color-text);
   display: flex;
+  justify-content: center;
   align-items: center;
   position: relative;
 }
 
-.checkbox {
+.checkbox-symbol {
+  position: absolute;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  user-select: none;
+}
+
+.checkbox-input {
+  position: absolute;
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
 }
 
-.check {
+.checkbox-label {
+  user-select: none;
+  cursor: pointer;
+  padding: 6px 8px;
+  border-radius: 6px;
+  overflow: hidden;
   display: flex;
-  width: 16px;
-  height: 15px;
-  border: 1px solid var(--brand-color-header);
-  border-radius: 2px;
-  margin-right: 8px;
 }
 
-.check::after {
-  content: "";
+.checkbox-label .checkbox-svg-icon {
+  position: relative;
   width: 16px;
   height: 15px;
-  opacity: 0;
-  display: inline-flex;
+  top: 4px;
+  border-radius: 4px;
+  border: 2px solid #212121;
+}
+
+.checkbox-label .checkbox-svg-icon svg {
   position: absolute;
-  transform: scale(0);
-  background-image: url(../images/icons2.svg#icon-check);
-  background-size: contain;
-  background-position: center;
+  top: 0;
+  left: 0;
 }
 
-.checkbox:checked .check::after {
-  opacity: 1;
-  transform: scale(1);
+.checkbox-input:checked + .checkbox-label .checkbox-svg-icon {
+  background: #0077ff;
+  border-color: #0077ff;
+}
+
+.rules {
+  padding-left: 8px;
 }
 
 .checkbox-modal a {
