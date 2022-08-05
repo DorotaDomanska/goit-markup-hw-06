@@ -366,14 +366,6 @@ p {
   position: relative;
 }
 
-.checkbox-symbol {
-  position: absolute;
-  width: 0;
-  height: 0;
-  pointer-events: none;
-  user-select: none;
-}
-
 .checkbox-input {
   position: absolute;
   -moz-appearance: none;
@@ -395,19 +387,20 @@ p {
   width: 16px;
   height: 15px;
   top: 4px;
-  border-radius: 4px;
+  border-radius: 3px;
   border: 2px solid #212121;
 }
 
 .checkbox-label .checkbox-svg-icon svg {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -2px;
+  left: -2px;
+  visibility: hidden;
+  transition: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox-input:checked + .checkbox-label .checkbox-svg-icon {
-  background: #0077ff;
-  border-color: #0077ff;
+.checkbox-input:checked + .checkbox-label .checkbox-svg-icon svg {
+  visibility: visible;
 }
 
 .rules {
